@@ -16,7 +16,7 @@ export class News {
   description: string;
 
   @Field((type) => String, { nullable: true })
-  image: string;
+  urlToImage: string;
 
   @Field((type) => GraphQLISODateTime, { nullable: true })
   publishedAt: Date;

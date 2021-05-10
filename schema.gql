@@ -10,11 +10,11 @@ scalar DateTime
 type News {
   author: String
   description: String
-  image: String
   publishedAt: DateTime
   source: Source!
   title: String!
   url: String!
+  urlToImage: String
 }
 
 type NewsResponse {
