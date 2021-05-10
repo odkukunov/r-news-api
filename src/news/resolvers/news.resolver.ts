@@ -9,7 +9,7 @@ export class NewsResolver {
   public constructor(private newsService: NewsService) {}
 
   @Query((returns) => NewsResponse)
-  public topHealines(
+  public topHeadlines(
     @Args('options', { type: () => TopHeadlinesInput })
     options: TopHeadlinesInput,
   ) {

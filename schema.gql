@@ -24,7 +24,7 @@ type NewsResponse {
 }
 
 type Query {
-  topHealines(options: TopHeadlinesInput!): NewsResponse!
+  topHeadlines(options: TopHeadlinesInput!): NewsResponse!
 }
 
 type Source {
